@@ -1,0 +1,11 @@
+# PyTorch 环境核心依赖 (Core Dependencies)
+torch==2.7.0+cu118
+torchvision==0.22.0+cu118
+torchaudio
+
+# 科学计算与可视化 (Science & Visualization)
+numpy
+matplotlib
+
+# 实验室工具辅助 (Utilities)
+# helper_utils.py is already included in the repository

@@ -20,7 +20,13 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to cl
 * `.gitignore`: Configured to exclude large datasets (e.g., `EMNIST_data/`) to keep the repository clean.
 
 ---
+## 📊 Dataset: EMNIST (Extended MNIST) | 数据集说明
 
+This project utilizes the **EMNIST (Extended MNIST)** dataset, specifically targeting handwritten alphabets. 
+* **Data Acquisition**: The dataset is automatically downloaded and loaded via `torchvision.datasets.EMNIST`.
+* **Exclusion Note**: To adhere to best engineering practices, the raw `EMNIST_data/` directory is excluded via `.gitignore` to maintain a lightweight repository footprint.
+  
+---
 ## 🛠️ Environment & Setup | 环境配置
 * **Operating System**: Windows 10/11
 * **Python Version**: `3.11+`
